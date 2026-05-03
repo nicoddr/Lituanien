@@ -1,0 +1,716 @@
+Lituanien,Français,Catégorie
+Aš,Je,Pronoms
+Tu,Tu,Pronoms
+Jis,Il,Pronoms
+Ji,Elle,Pronoms
+Mes,Nous,Pronoms
+Jūs,Vous,Pronoms
+Jie,Ils,Pronoms
+Jos,Elles,Pronoms
+Mano,Mon / Ma,Pronoms
+Tavo,Ton / Ta,Pronoms
+Jo,Son (à lui),Pronoms
+Jos,Son (à elle),Pronoms
+Mūsų,Notre,Pronoms
+Jūsų,Votre,Pronoms
+Jų,Leur,Pronoms
+Man,À moi,Pronoms
+Tau,À toi,Pronoms
+Jam,À lui,Pronoms
+Jai,À elle,Pronoms
+Mums,À nous,Pronoms
+Jums,À vous,Pronoms
+Jiems,À eux,Pronoms
+Joms,À elles,Pronoms
+Save,Soi-même,Pronoms
+Pats,Moi-même / Toi-même,Pronoms
+Nulis,Zéro,Nombres
+Vienas,Un,Nombres
+Du,Deux,Nombres
+Trys,Trois,Nombres
+Keturi,Quatre,Nombres
+Penki,Cinq,Nombres
+Šeši,Six,Nombres
+Septyni,Sept,Nombres
+Aštuoni,Huit,Nombres
+Devyni,Neuf,Nombres
+Dešimt,Dix,Nombres
+Vienuolika,Onze,Nombres
+Dvylika,Douze,Nombres
+Trylika,Treize,Nombres
+Keturiolika,Quatorze,Nombres
+Penkiolika,Quinze,Nombres
+Šešiolika,Seize,Nombres
+Septyniolika,Dix-sept,Nombres
+Aštuoniolika,Dix-huit,Nombres
+Devyniolika,Dix-neuf,Nombres
+Dvidešimt,Vingt,Nombres
+Trisdešimt,Trente,Nombres
+Keturiasdešimt,Quarante,Nombres
+Penkiasdešimt,Cinquante,Nombres
+Šešiasdešimt,Soixante,Nombres
+Septyniasdešimt,Soixante-dix,Nombres
+Aštuoniasdešimt,Quatre-vingts,Nombres
+Devyniasdešimt,Quatre-vingt-dix,Nombres
+Šimtas,Cent,Nombres
+Tūkstantis,Mille,Nombres
+Milijonas,Million,Nombres
+Pirmas,Premier,Nombres
+Antras,Deuxième,Nombres
+Trečias,Troisième,Nombres
+Ketvirtas,Quatrième,Nombres
+Penktas,Cinquième,Nombres
+Šeštas,Sixième,Nombres
+Septintas,Septième,Nombres
+Aštuntas,Huitième,Nombres
+Devintas,Neuvième,Nombres
+Dešimtas,Dixième,Nombres
+Pirmadienis,Lundi,Temps
+Antradienis,Mardi,Temps
+Trečiadienis,Mercredi,Temps
+Ketvirtadienis,Jeudi,Temps
+Penktadienis,Vendredi,Temps
+Šeštadienis,Samedi,Temps
+Sekmadienis,Dimanche,Temps
+Sausis,Janvier,Temps
+Vasaris,Février,Temps
+Kovas,Mars,Temps
+Balandis,Avril,Temps
+Gegužė,Mai,Temps
+Birželis,Juin,Temps
+Liepa,Juillet,Temps
+Rugpjūtis,Août,Temps
+Rugsėjis,Septembre,Temps
+Spalis,Octobre,Temps
+Lapkritis,Novembre,Temps
+Gruodis,Décembre,Temps
+Pavasaris,Printemps,Temps
+Vasara,Été,Temps
+Ruduo,Automne,Temps
+Žiema,Hiver,Temps
+Rytas,Matin,Temps
+Diena,Jour,Temps
+Vakaras,Soir,Temps
+Naktis,Nuit,Temps
+Vidurdienis,Midi,Temps
+Vidurnaktis,Minuit,Temps
+Šiandien,Aujourd'hui,Temps
+Rytoj,Demain,Temps
+Poryt,Après-demain,Temps
+Vakar,Hier,Temps
+Užvakar,Avant-hier,Temps
+Dabar,Maintenant,Temps
+Tada,Alors / À ce moment,Temps
+Visada,Toujours,Temps
+Niekada,Jamais,Temps
+Kartais,Parfois,Temps
+Dažnai,Souvent,Temps
+Retai,Rarement,Temps
+Greitai,Bientôt / Vite,Temps
+Ilgai,Longtemps,Temps
+Valanda,Heure,Temps
+Minutė,Minute,Temps
+Sekundė,Seconde,Temps
+Laikas,Temps (durée),Temps
+Savaitė,Semaine,Temps
+Mėnuo,Mois,Temps
+Metai,Année,Temps
+Amžius,Siècle / Âge,Temps
+Kalendorius,Calendrier,Temps
+Žmogus,Humain / Personne,Personnes
+Vyras,Homme,Personnes
+Moteris,Femme,Personnes
+Vaikas,Enfant,Personnes
+Mergaitė,Fille (enfant),Personnes
+Berniukas,Garçon,Personnes
+Kūdikis,Bébé,Personnes
+Paauglys,Adolescent,Personnes
+Suaugęs,Adulte,Personnes
+Senelis,Grand-père,Personnes
+Močiutė,Grand-mère,Personnes
+Mama,Maman,Personnes
+Tėtis,Papa,Personnes
+Tėvai,Parents,Personnes
+Brolis,Frère,Personnes
+Sesuo,Sœur,Personnes
+Sūnus,Fils,Personnes
+Dukra,Fille,Personnes
+Dėdė,Oncle,Personnes
+Teta,Tante,Personnes
+Pusbrolis,Cousin,Personnes
+Pusseserė,Cousine,Personnes
+Uošvis,Beau-père,Personnes
+Uošvė,Belle-mère,Personnes
+Žentas,Gendre,Personnes
+Marti,Belle-fille,Personnes
+Vyras (mari),Mari,Personnes
+Žmona,Épouse,Personnes
+Draugas,Ami,Personnes
+Draugė,Amie,Personnes
+Kaimynas,Voisin,Personnes
+Svečias,Invité,Personnes
+Kolega,Collègue,Personnes
+Viršininkas,Patron / Chef,Personnes
+Vardas,Prénom,Personnes
+Pavardė,Nom de famille,Personnes
+Galva,Tête,Corps
+Veidas,Visage,Corps
+Akis,Œil,Corps
+Ausis,Oreille,Corps
+Nosis,Nez,Corps
+Burna,Bouche,Corps
+Dantis,Dent,Corps
+Liežuvis,Langue (corps),Corps
+Lūpa,Lèvre,Corps
+Plaukai,Cheveux,Corps
+Kaklas,Cou,Corps
+Petys,Épaule,Corps
+Ranka,Bras / Main,Corps
+Pirštas,Doigt,Corps
+Nykštys,Pouce,Corps
+Krūtinė,Poitrine,Corps
+Nugara,Dos,Corps
+Pilvas,Ventre,Corps
+Koja,Jambe / Pied,Corps
+Pėda,Pied,Corps
+Kelis,Genou,Corps
+Oda,Peau,Corps
+Kaulas,Os,Corps
+Kraujas,Sang,Corps
+Širdis,Cœur,Corps
+Skrandis,Estomac,Corps
+Liga,Maladie,Santé
+Sveikata,Santé,Santé
+Skausmas,Douleur,Santé
+Vaistas,Médicament,Santé
+Gydytojas,Médecin,Santé
+Vanduo,Eau,Alimentation
+Arbata,Thé,Alimentation
+Kava,Café,Alimentation
+Pienas,Lait,Alimentation
+Sultys,Jus,Alimentation
+Alus,Bière,Alimentation
+Vynas,Vin,Alimentation
+Gėrimas,Boisson,Alimentation
+Duona,Pain,Alimentation
+Sviestas,Beurre,Alimentation
+Sūris,Fromage,Alimentation
+Mėsa,Viande,Alimentation
+Jautiena,Bœuf,Alimentation
+Kiauliena,Porc,Alimentation
+Vištiena,Poulet,Alimentation
+Žuvis,Poisson (aliment),Alimentation
+Dešra,Saucisse,Alimentation
+Kumpis,Jambon,Alimentation
+Kiaušinis,Œuf,Alimentation
+Sriuba,Soupe,Alimentation
+Salotos,Salade,Alimentation
+Daržovė,Légume,Alimentation
+Pomidoras,Tomate,Alimentation
+Agurkas,Concombre,Alimentation
+Bulvė,Pomme de terre,Alimentation
+Morka,Carotte,Alimentation
+Svogūnas,Oignon,Alimentation
+Česnakas,Ail,Alimentation
+Kopūstas,Chou,Alimentation
+Vaisius,Fruit,Alimentation
+Obuolys,Pomme,Alimentation
+Kriaušė,Poire,Alimentation
+Bananas,Banane,Alimentation
+Apelsinas,Orange (fruit),Alimentation
+Citrina,Citron,Alimentation
+Uoga,Baie,Alimentation
+Braškė,Fraise,Alimentation
+Cukrus,Sucre,Alimentation
+Druska,Sel,Alimentation
+Pipirai,Poivre,Alimentation
+Aliejus,Huile,Alimentation
+Actas,Vinaigre,Alimentation
+Padažas,Sauce,Alimentation
+Pyragas,Gâteau / Tarte,Alimentation
+Saldainis,Bonbon,Alimentation
+Šokoladas,Chocolat,Alimentation
+Ledai,Glace (dessert),Alimentation
+Medus,Miel,Alimentation
+Miltai,Farine,Alimentation
+Ryžiai,Riz,Alimentation
+Makaronai,Pâtes,Alimentation
+Pusryčiai,Petit-déjeuner,Alimentation
+Pietūs,Déjeuner,Alimentation
+Vakarienė,Dîner,Alimentation
+Užkandis,Collation,Alimentation
+Maistas,Nourriture,Alimentation
+Alkanas,Affamé,Alimentation
+Ištroškęs,Assoiffé,Alimentation
+Namas,Maison,Maison
+Butas,Appartement,Maison
+Kambarys,Pièce / Chambre,Maison
+Virtuvė,Cuisine,Maison
+Vonia,Salle de bain,Maison
+Tualetas,Toilettes,Maison
+Svetainė,Salon,Maison
+Miegamasis,Chambre à coucher,Maison
+Koridorius,Couloir,Maison
+Balkonas,Balcon,Maison
+Siena,Mur,Maison
+Grindys,Sol,Maison
+Lubos,Plafond,Maison
+Stogas,Toit,Maison
+Langas,Fenêtre,Maison
+Durys,Porte,Maison
+Raktas,Clé,Maison
+Spyna,Serrure,Maison
+Baldas,Meuble,Maison
+Lova,Lit,Maison
+Stalas,Table,Maison
+Kėdė,Chaise,Maison
+Spinta,Armoire,Maison
+Lentyna,Étagère,Maison
+Sofa,Canapé,Maison
+Fotelis,Fauteuil,Maison
+Veidrodis,Miroir,Maison
+Lempa,Lampe,Maison
+Kilimas,Tapis,Maison
+Laikrodis,Horloge / Montre,Maison
+Paveikslas,Tableau / Peinture,Maison
+Televizorius,Télévision,Maison
+Kompiuteris,Ordinateur,Maison
+Telefonas,Téléphone,Maison
+Knyga,Livre,Maison
+Sąsiuvinis,Cahier,Maison
+Žurnalas,Magazine,Maison
+Laikraštis,Journal,Maison
+Pieštukas,Crayon,Maison
+Tušinukas,Stylo,Maison
+Lėkštė,Assiette,Maison
+Puodelis,Tasse,Maison
+Stiklinė,Verre,Maison
+Peilis,Couteau,Maison
+Šakutė,Fourchette,Maison
+Šaukštas,Cuillère,Maison
+Puodas,Casserole / Marmite,Maison
+Keptuvė,Poêle,Maison
+Šiukšlinė,Poubelle,Maison
+Muilas,Savon,Maison
+Rankšluostis,Serviette,Maison
+Dantų šepetėlis,Brosse à dents,Maison
+Pasta,Dentifrice,Maison
+Šampūnas,Shampooing,Maison
+Miestas,Ville,Lieux
+Kaimas,Village,Lieux
+Gatvė,Rue,Lieux
+Aikštė,Place,Lieux
+Kelias,Route,Lieux
+Tiltas,Pont,Lieux
+Parkas,Parc,Lieux
+Sodas,Jardin,Lieux
+Parduotuvė,Magasin,Lieux
+Prekybos centras,Centre commercial,Lieux
+Turgus,Marché,Lieux
+Vaistinė,Pharmacie,Lieux
+Ligoninė,Hôpital,Lieux
+Poliklinika,Clinique,Lieux
+Mokykla,École,Lieux
+Universitetas,Université,Lieux
+Biblioteka,Bibliothèque,Lieux
+Muziejus,Musée,Lieux
+Teatras,Théâtre,Lieux
+Kinas,Cinéma,Lieux
+Restoranas,Restaurant,Lieux
+Kavinė,Café (lieu),Lieux
+Baras,Bar,Lieux
+Bankas,Banque,Lieux
+Paštas,Poste,Lieux
+Policija,Police,Lieux
+Gaisrinė,Pompiers (caserne),Lieux
+Bažnyčia,Église,Lieux
+Viešbutis,Hôtel,Lieux
+Stotis,Gare / Station,Lieux
+Oro uostas,Aéroport,Lieux
+Uostas,Port,Lieux
+Centras,Centre,Lieux
+Pakraštys,Banlieue / Périphérie,Lieux
+Darbas,Travail,Lieux
+Biuras,Bureau,Lieux
+Gamykla,Usine,Lieux
+Saulė,Soleil,Nature
+Mėnulis,Lune,Nature
+Žvaigždė,Étoile,Nature
+Dangus,Ciel,Nature
+Žemė,Terre,Nature
+Pasaulis,Monde,Nature
+Medis,Arbre,Nature
+Krūmas,Buisson,Nature
+Gėlė,Fleur,Nature
+Žolė,Herbe,Nature
+Lapas,Feuille,Nature
+Jūra,Mer,Nature
+Vandenynas,Océan,Nature
+Ežeras,Lac,Nature
+Upė,Rivière,Nature
+Tvenkinys,Étang,Nature
+Kalnas,Montagne,Nature
+Slėnis,Vallée,Nature
+Miškas,Forêt,Nature
+Laukas,Champ,Nature
+Akmuo,Pierre,Nature
+Smėlis,Sable,Nature
+Orai,Météo,Nature
+Lietus,Pluie,Nature
+Sniegas,Neige,Nature
+Vėjas,Vent,Nature
+Debesis,Nuage,Nature
+Rūkas,Brouillard,Nature
+Audra,Tempête,Nature
+Žaibas,Éclair,Nature
+Šaltis,Le froid,Nature
+Karštis,La chaleur,Nature
+Šviesa,Lumière,Nature
+Tamsa,Obscurité,Nature
+Gyvūnas,Animal,Animaux
+Šuo,Chien,Animaux
+Katė,Chat,Animaux
+Paukštis,Oiseau,Animaux
+Žuvis,Poisson (animal),Animaux
+Arklys,Cheval,Animaux
+Karvė,Vache,Animaux
+Kiaulė,Cochon,Animaux
+Avis,Mouton,Animaux
+Ožka,Chèvre,Animaux
+Višta,Poule,Animaux
+Antis,Canard,Animaux
+Žąsis,Oie,Animaux
+Pelė,Souris,Animaux
+Žiurkė,Rat,Animaux
+Triušis,Lapin,Animaux
+Kiškis,Lièvre,Animaux
+Lapė,Renard,Animaux
+Vilkas,Loup,Animaux
+Lokys,Ours,Animaux
+Elnias,Cerf,Animaux
+Briedis,Élan,Animaux
+Varlė,Grenouille,Animaux
+Gyvatė,Serpent,Animaux
+Vabzdys,Insecte,Animaux
+Musė,Mouche,Animaux
+Uodas,Moustique,Animaux
+Bitė,Abeille,Animaux
+Voras,Araignée,Animaux
+Drugelis,Papillon,Animaux
+Drabužis,Vêtement,Vêtements
+Kelnės,Pantalon,Vêtements
+Džinsai,Jeans,Vêtements
+Šortai,Short,Vêtements
+Marškiniai,Chemise,Vêtements
+Marškinėliai,T-shirt,Vêtements
+Megztinis,Pull,Vêtements
+Suknelė,Robe,Vêtements
+Sijonas,Jupe,Vêtements
+Kostiumas,Costume,Vêtements
+Striukė,Veste,Vêtements
+Paltas,Manteau,Vêtements
+Batai,Chaussures,Vêtements
+Sportbačiai,Baskets,Vêtements
+Avalynė,Chaussures (général),Vêtements
+Kojinės,Chaussettes,Vêtements
+Pėdkelnės,Collants,Vêtements
+Apatiniai,Sous-vêtements,Vêtements
+Liemenėlė,Soutien-gorge,Vêtements
+Kelnaitės,Culotte,Vêtements
+Kepurė,Bonnet,Vêtements
+Skrybėlė,Chapeau,Vêtements
+Šalikas,Écharpe,Vêtements
+Pirštinės,Gants,Vêtements
+Diržas,Ceinture,Vêtements
+Kaklaraištis,Cravate,Vêtements
+Rankinė,Sac à main,Vêtements
+Kuprinė,Sac à dos,Vêtements
+Skėtis,Parapluie,Vêtements
+Akiniai,Lunettes,Vêtements
+Profesija,Profession,Métiers
+Darbininkas,Ouvrier,Métiers
+Mokytojas,Professeur (école),Métiers
+Dėstytojas,Professeur (université),Métiers
+Studentas,Étudiant,Métiers
+Mokinys,Élève,Métiers
+Gydytojas,Médecin,Métiers
+Slaugytojas,Infirmier,Métiers
+Inžinierius,Ingénieur,Métiers
+Architektas,Architecte,Métiers
+Vairuotojas,Chauffeur,Métiers
+Pardavėjas,Vendeur,Métiers
+Padavėjas,Serveur,Métiers
+Virėjas,Cuisinier,Métiers
+Kirpėjas,Coiffeur,Métiers
+Policininkas,Policier,Métiers
+Gaisrininkas,Pompier,Métiers
+Kariškis,Militaire,Métiers
+Teisininkas,Juriste,Métiers
+Advokatas,Avocat,Métiers
+Teisėjas,Juge,Métiers
+Aktorius,Acteur,Métiers
+Dainininkas,Chanteur,Métiers
+Dailininkas,Artiste peintre,Métiers
+Rašytojas,Écrivain,Métiers
+Žurnalistas,Journaliste,Métiers
+Sportininkas,Sportif,Métiers
+Ūkininkas,Agriculteur,Métiers
+Direktorius,Directeur,Métiers
+Vadybininkas,Manager,Métiers
+Transportas,Transport,Voyage
+Automobilis,Automobile,Voyage
+Mašina,Voiture,Voyage
+Autobusas,Autobus,Voyage
+Troleibusas,Trolleybus,Voyage
+Tramvajus,Tramway,Voyage
+Traukinys,Train,Voyage
+Lėktuvas,Avion,Voyage
+Laivas,Bateau,Voyage
+Valtis,Barque,Voyage
+Dviratis,Vélo,Voyage
+Motociklas,Moto,Voyage
+Bilietas,Billet,Voyage
+Stotelė,Arrêt (bus/tram),Voyage
+Keleivis,Passager,Voyage
+Vairas,Volant,Voyage
+Ratas,Roue,Voyage
+Greitis,Vitesse,Voyage
+Benzinas,Essence,Voyage
+Kuras,Carburant,Voyage
+Kelionė,Voyage,Voyage
+Pasas,Passeport,Voyage
+Viza,Visa,Voyage
+Lagaminas,Valise,Voyage
+Žemėlapis,Carte (géographique),Voyage
+Būti,Être,Verbes
+Turėti,Avoir,Verbes
+Eiti,Aller (à pied),Verbes
+Važiuoti,Aller (véhicule),Verbes
+Skristi,Voler (avion),Verbes
+Bėgti,Courir,Verbes
+Plaukti,Nager / Naviguer,Verbes
+Daryti,Faire,Verbes
+Dirbti,Travailler,Verbes
+Mokytis,Apprendre,Verbes
+Studijuoti,Étudier,Verbes
+Gyventi,Vivre / Habiter,Verbes
+Kalbėti,Parler,Verbes
+Sakyti,Dire,Verbes
+Pasakoti,Raconter,Verbes
+Suprasti,Comprendre,Verbes
+Žinoti,Savoir,Verbes
+Galvoti,Penser,Verbes
+Manyti,Croire / Penser,Verbes
+Prisiminti,Se souvenir,Verbes
+Pamiršti,Oublier,Verbes
+Norėti,Vouloir,Verbes
+Patikti,Plaire,Verbes
+Mylėti,Aimer,Verbes
+Nekęsti,Détester,Verbes
+Valgyti,Manger,Verbes
+Gerti,Boire,Verbes
+Miegoti,Dormir,Verbes
+Atsibusti,Se réveiller,Verbes
+Keltis,Se lever,Verbes
+Praustis,Se laver,Verbes
+Rengtis,S'habiller,Verbes
+Pirkti,Acheter,Verbes
+Parduoti,Vendre,Verbes
+Mokėti,Payer / Savoir faire,Verbes
+Kainuoti,Coûter,Verbes
+Matyti,Voir,Verbes
+Žiūrėti,Regarder,Verbes
+Girdėti,Entendre,Verbes
+Klausyti,Écouter,Verbes
+Skaityti,Lire,Verbes
+Rašyti,Écrire,Verbes
+Sėdėti,Être assis,Verbes
+Stovėti,Être debout,Verbes
+Gulėti,Être couché,Verbes
+Laukti,Attendre,Verbes
+Duoti,Donner,Verbes
+Imti,Prendre,Verbes
+Padėti,Aider / Poser,Verbes
+Atidaryti,Ouvrir,Verbes
+Uždaryti,Fermer,Verbes
+Pradėti,Commencer,Verbes
+Baigti,Finir,Verbes
+Žaisti,Jouer,Verbes
+Dainuoti,Chanter,Verbes
+Šokti,Danser / Sauter,Verbes
+Juoktis,Rire,Verbes
+Verkti,Pleurer,Verbes
+Šypsotis,Sourire,Verbes
+Klausti,Demander,Verbes
+Atsakyti,Répondre,Verbes
+Prašyti,Demander (prier de),Verbes
+Dėkoti,Remercier,Verbes
+Atsiprašyti,S'excuser,Verbes
+Ieškoti,Chercher,Verbes
+Rasti,Trouver,Verbes
+Pamesti,Perdre (un objet),Verbes
+Bandyti,Essayer,Verbes
+Galėti,Pouvoir,Verbes
+Privalėti,Devoir (obligation),Verbes
+Reikėti,Avoir besoin de,Verbes
+Kurti,Créer,Verbes
+Statyti,Construire,Verbes
+Griauti,Détruire,Verbes
+Keisti,Changer,Verbes
+Ruošti,Préparer,Verbes
+Virti,Bouillir / Cuisiner,Verbes
+Kepti,Cuire au four / Frire,Verbes
+Plauti,Laver,Verbes
+Valyti,Nettoyer,Verbes
+Šluoti,Balayer,Verbes
+Lyginti,Repasser,Verbes
+Siūti,Coudre,Verbes
+Taisyti,Réparer,Verbes
+Kviesti,Inviter,Verbes
+Atvykti,Arriver,Verbes
+Išvykti,Partir,Verbes
+Keliauti,Voyager,Verbes
+Ilsėtis,Se reposer,Verbes
+Sirgti,Être malade,Verbes
+Pasveikti,Guérir,Verbes
+Gimti,Naître,Verbes
+Mirti,Mourir,Verbes
+Tikėti,Croire,Verbes
+Jausti,Ressentir,Verbes
+Bijoti,Avoir peur,Verbes
+Pykti,Être en colère,Verbes
+Džiaugtis,Se réjouir,Verbes
+Laimėti,Gagner,Verbes
+Pralaimėti,Perdre (un jeu/match),Verbes
+Geras,Bon,Adjectifs
+Blogas,Mauvais,Adjectifs
+Puikus,Excellent,Adjectifs
+Baisus,Terrible / Effrayant,Adjectifs
+Didelis,Grand,Adjectifs
+Mažas,Petit,Adjectifs
+Ilgas,Long,Adjectifs
+Trumpas,Court,Adjectifs
+Platus,Large,Adjectifs
+Siauras,Étroit,Adjectifs
+Aukštas,Haut / Grand (taille),Adjectifs
+Žemas,Bas / Petit (taille),Adjectifs
+Gilus,Profond,Adjectifs
+Seklus,Peu profond,Adjectifs
+Storas,Gros / Épais,Adjectifs
+Plonas,Mince / Fin,Adjectifs
+Sunkus,Lourd / Difficile,Adjectifs
+Lengvas,Léger / Facile,Adjectifs
+Stiprus,Fort,Adjectifs
+Silpnas,Faible,Adjectifs
+Greitas,Rapide,Adjectifs
+Lėtas,Lent,Adjectifs
+Naujas,Nouveau,Adjectifs
+Senas,Vieux,Adjectifs
+Jaunas,Jeune,Adjectifs
+Gražus,Beau,Adjectifs
+Bjaurus,Moche,Adjectifs
+Karštas,Chaud (très),Adjectifs
+Šaltas,Froid,Adjectifs
+Šiltas,Chaud (agréable),Adjectifs
+Vėsus,Frais,Adjectifs
+Brangus,Cher,Adjectifs
+Pigus,Pas cher,Adjectifs
+Švarus,Propre,Adjectifs
+Nešvarus,Sale,Adjectifs
+Laimingas,Heureux,Adjectifs
+Liūdnas,Triste,Adjectifs
+Piktas,Méchant / En colère,Adjectifs
+Protingas,Intelligent,Adjectifs
+Kvailas,Stupide,Adjectifs
+Įdomus,Intéressant,Adjectifs
+Nuobodus,Ennuyeux,Adjectifs
+Svarbus,Important,Adjectifs
+Reikalingas,Nécessaire,Adjectifs
+Teisus,Ayant raison,Adjectifs
+Neteisus,Ayant tort,Adjectifs
+Pilnas,Plein,Adjectifs
+Tuščias,Vide,Adjectifs
+Atviras,Ouvert,Adjectifs
+Uždaras,Fermé,Adjectifs
+Laisvas,Libre,Adjectifs
+Užimtas,Occupé,Adjectifs
+Sveikas,En bonne santé,Adjectifs
+Sergantis,Malade,Adjectifs
+Gyvas,Vivant,Adjectifs
+Mirus,Mort,Adjectifs
+Sausas,Sec,Adjectifs
+Šlapias,Mouillé,Adjectifs
+Minkštas,Doux / Mou,Adjectifs
+Kietas,Dur,Adjectifs
+Saldus,Sucré,Adjectifs
+Sūrus,Salé,Adjectifs
+Rūgštus,Acide,Adjectifs
+Kartus,Amer,Adjectifs
+Aštrus,Épicé / Tranchant,Adjectifs
+Šviesus,Lumineux / Clair,Adjectifs
+Tamsus,Sombre / Foncé,Adjectifs
+Spalvotas,Coloré,Adjectifs
+Kas,Qui / Quoi,Mots utiles
+Kur,Où,Mots utiles
+Kada,Quand,Mots utiles
+Kodėl,Pourquoi,Mots utiles
+Kaip,Comment,Mots utiles
+Kiek,Combien,Mots utiles
+Koks,Quel,Mots utiles
+Kokia,Quelle,Mots utiles
+Kuris,Lequel,Mots utiles
+Kuri,Laquelle,Mots utiles
+Taip,Oui,Mots utiles
+Ne,Non,Mots utiles
+Ačiū,Merci,Mots utiles
+Prašau,S'il vous plaît / De rien,Mots utiles
+Atsiprašau,Pardon,Mots utiles
+Labas,Bonjour / Salut,Mots utiles
+Iki,À plus tard,Mots utiles
+Čia,Ici,Mots utiles
+Ten,Là-bas,Mots utiles
+Arčiau,Plus près,Mots utiles
+Toliau,Plus loin,Mots utiles
+Aukščiau,Plus haut,Mots utiles
+Žemiau,Plus bas,Mots utiles
+Viduje,À l'intérieur,Mots utiles
+Lauke,Dehors,Mots utiles
+Priekyje,Devant,Mots utiles
+Užpakalyje,Derrière,Mots utiles
+Kairėje,À gauche,Mots utiles
+Dešinėje,À droite,Mots utiles
+Tiesiai,Tout droit,Mots utiles
+Atgal,En arrière,Mots utiles
+Labai,Très,Mots utiles
+Daug,Beaucoup,Mots utiles
+Mažai,Peu,Mots utiles
+Truputį,Un peu,Mots utiles
+Tik,Seulement,Mots utiles
+Dar,Encore,Mots utiles
+Jau,Déjà,Mots utiles
+Vėl,De nouveau,Mots utiles
+Beveik,Presque,Mots utiles
+Visiškai,Complètement,Mots utiles
+Kartu,Ensemble,Mots utiles
+Atskirai,Séparément,Mots utiles
+Ir,Et,Mots utiles
+Bet,Mais,Mots utiles
+Ar,Est-ce que,Mots utiles
+Arba,Ou,Mots utiles
+Kad,Que (conjonction),Mots utiles
+Nes,Parce que,Mots utiles
+Jei,Si,Mots utiles
+Spalva,Couleur,Couleurs
+Raudona,Rouge,Couleurs
+Mėlyna,Bleu,Couleurs
+Geltona,Jaune,Couleurs
+Žalia,Vert,Couleurs
+Juoda,Noir,Couleurs
+Balta,Blanc,Couleurs
+Ruda,Marron,Couleurs
+Pilka,Gris,Couleurs
+Oranžinė,Orange,Couleurs
+Rožinė,Rose,Couleurs
+Violetinė,Violet,Couleurs
+Auksinė,Doré,Couleurs
+Sidabrinė,Argenté,Couleurs

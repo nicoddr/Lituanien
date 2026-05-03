@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprendre le Lituanien A1 ✨</title>
+    <!-- Modern Typography: Outfit -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Decorative Animated Background Blobs for Glassmorphism -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="app-container">
+        <!-- Home View -->
+        <div id="home-view" class="view active">
+            <header class="main-header">
+                <div class="header-badge">A1</div>
+                <h1>Lituanien 🇱🇹</h1>
+                <p>Maîtrisez les bases avec style</p>
+            </header>
+            
+            <button class="btn btn-vocab" onclick="showVocab()">
+                <span class="icon">📖</span> Dictionnaire
+            </button>
+            
+            <div class="module-list" id="main-module-list">
+                <!-- Modules injected here via JS -->
+            </div>
+        </div>
+
+        <!-- Sub-Module Selection View -->
+        <div id="submodule-view" class="view">
+            <button class="back-btn" onclick="goHome()" aria-label="Retour à l'accueil">
+                <span class="icon">⬅️</span> Accueil
+            </button>
+            <header class="section-header">
+                <h2 id="submodule-header-title">Titre Module</h2>
+                <p>Choisissez votre leçon</p>
+            </header>
+            <div class="module-list" id="submodule-list">
+                <!-- Sub-Modules injected here -->
+            </div>
+        </div>
+
+        <!-- Lesson View -->
+        <div id="lesson-view" class="view">
+            <button class="back-btn" onclick="backToSubModules()" aria-label="Retour aux leçons">
+                <span class="icon">⬅️</span> Leçons
+            </button>
+            <div class="theory-content glass-panel" id="theory-content">
+                <!-- Theory injected here -->
+            </div>
+            <button class="btn btn-primary btn-3d" onclick="startExercises()">Commencer l'entraînement 🚀</button>
+        </div>
+
+        <!-- Exercise View -->
+        <div id="exercise-view" class="view">
+            <header class="exercise-header">
+                <button class="back-btn" onclick="backToSubModules()" aria-label="Quitter l'exercice">
+                    <span class="icon">✖️</span> Quitter
+                </button>
+                <div class="progress-bar-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+            </header>
+
+            <div id="exercise-container" class="glass-panel exercise-panel">
+                <!-- Exercise content injected here -->
+            </div>
+            
+            <div class="feedback-message" id="feedback-message" aria-live="polite"></div>
+            <button class="btn btn-primary btn-3d" id="next-btn" style="display: none;" onclick="nextExercise()">Continuer ➡️</button>
+        </div>
+        
+        <!-- Success View -->
+        <div id="success-view" class="view success-state">
+            <div class="trophy-icon">🏆</div>
+            <h2>Leçon Brillamment Terminée !</h2>
+            <p>Vos efforts portent leurs fruits. Continuez ainsi !</p>
+            <button class="btn btn-primary btn-3d" onclick="backToSubModules()">Retour au menu</button>
+        </div>
+        
+        <!-- Vocab Categories View -->
+        <div id="vocab-categories-view" class="view">
+            <button class="back-btn" onclick="goHome()" aria-label="Retour à l'accueil">
+                <span class="icon">⬅️</span> Accueil
+            </button>
+            <header class="section-header">
+                <h2>Vocabulaire 📖</h2>
+                <p>Choisissez une catégorie à réviser</p>
+            </header>
+            <div class="module-list" id="vocab-categories-list">
+                <!-- Categories injected here -->
+            </div>
+        </div>
+
+        <!-- Vocab Detail View (List & Flashcards) -->
+        <div id="vocab-detail-view" class="view">
+            <button class="back-btn" onclick="openVocabCategories()" aria-label="Retour aux catégories">
+                <span class="icon">⬅️</span> Catégories
+            </button>
+            <header class="section-header">
+                <h2 id="vocab-category-title">Catégorie</h2>
+                <div class="mode-toggle">
+                    <button class="toggle-btn active" id="btn-list-mode" onclick="setVocabMode('list')">📖 Liste</button>
+                    <button class="toggle-btn" id="btn-flashcard-mode" onclick="setVocabMode('flashcard')">🎴 Flashcards</button>
+                </div>
+            </header>
+            
+            <div id="vocab-list-container" class="vocab-container glass-panel">
+                <ul class="vocab-list" id="vocab-words-list">
+                    <!-- Words injected here -->
+                </ul>
+            </div>
+            
+            <div id="vocab-flashcard-container" style="display: none;">
+                <div class="flashcard-container" onclick="flipFlashcard()">
+                    <div class="flashcard" id="current-flashcard">
+                        <div class="flashcard-face flashcard-front">
+                            <span id="flashcard-front">Mot</span>
+                            <div class="flashcard-hint">Appuyez pour retourner</div>
+                        </div>
+                        <div class="flashcard-face flashcard-back" id="flashcard-back">Traduction</div>
+                    </div>
+                </div>
+                <div class="flashcard-controls">
+                    <button class="btn btn-secondary btn-3d" onclick="prevFlashcard()">⬅️ Précédent</button>
+                    <button class="btn btn-primary btn-3d" onclick="nextFlashcard()">Suivant ➡️</button>
+                </div>
+                <div class="flashcard-progress" id="flashcard-progress">1 / 10</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="vocab.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
