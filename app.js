@@ -128,17 +128,29 @@ function renderExercise() {
     
     const ex = currentSubModule.exercises[currentExerciseIndex];
     
-    let html = `<div class="exercise-question">${ex.question}</div>`;
+    // Clear container
+    exerciseContainer.innerHTML = '';
+    
+    // Create question
+    const questionDiv = document.createElement('div');
+    questionDiv.className = 'exercise-question';
+    questionDiv.innerText = ex.question;
+    exerciseContainer.appendChild(questionDiv);
     
     if (ex.type === 'qcm' || ex.type === 'fill') {
-        html += `<div class="options-grid">`;
+        const grid = document.createElement('div');
+        grid.className = 'options-grid';
+        
         ex.options.forEach(opt => {
-            html += `<button class="option-btn" onclick="checkAnswer('${opt}', this)">${opt}</button>`;
+            const btn = document.createElement('button');
+            btn.className = 'option-btn';
+            btn.innerText = opt;
+            btn.onclick = () => checkAnswer(opt, btn);
+            grid.appendChild(btn);
         });
-        html += `</div>`;
+        
+        exerciseContainer.appendChild(grid);
     }
-    
-    exerciseContainer.innerHTML = html;
 }
 
 function checkAnswer(selectedOpt, btnElement) {
