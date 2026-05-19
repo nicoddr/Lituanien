@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="level-a1">
 
     <!-- Decorative Animated Background Blobs for Glassmorphism -->
     <div class="blob blob-1"></div>
@@ -19,9 +19,13 @@
         <!-- Home View -->
         <div id="home-view" class="view active">
             <header class="main-header">
-                <div class="header-badge">A1</div>
+                <div class="level-selector-container">
+                    <button class="level-btn active" id="btn-level-a1" onclick="switchLevel('A1')">A1</button>
+                    <button class="level-btn" id="btn-level-a2" onclick="switchLevel('A2')">A2</button>
+                    <button class="level-btn" id="btn-level-b1" onclick="switchLevel('B1')">B1</button>
+                </div>
                 <h1>Lituanien 🇱🇹</h1>
-                <p>Maîtrisez les bases avec style</p>
+                <p id="main-header-subtitle">Maîtrisez les bases avec style</p>
             </header>
             
             <button class="btn btn-vocab" onclick="showVocab()">

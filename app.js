@@ -1,4 +1,5 @@
 // State
+let currentLevel = 'A1';
 let currentMainModule = null;
 let currentSubModule = null;
 let currentExerciseIndex = 0;
@@ -44,6 +45,36 @@ function initApp() {
     renderMainModules();
 }
 
+function switchLevel(level) {
+    if (level === currentLevel) return;
+    
+    currentLevel = level;
+    
+    // Update body class for styling
+    document.body.className = `level-${level.toLowerCase()}`;
+    
+    // Update active tab styling
+    document.getElementById('btn-level-a1').classList.toggle('active', level === 'A1');
+    document.getElementById('btn-level-a2').classList.toggle('active', level === 'A2');
+    document.getElementById('btn-level-b1').classList.toggle('active', level === 'B1');
+    
+    // Update document title and header subtitle
+    const subtitle = document.getElementById('main-header-subtitle');
+    if (level === 'A1') {
+        document.title = "Apprendre le Lituanien A1 ✨";
+        if (subtitle) subtitle.innerText = "Maîtrisez les bases avec style";
+    } else if (level === 'A2') {
+        document.title = "Apprendre le Lituanien A2 🚀";
+        if (subtitle) subtitle.innerText = "Élargissez vos horizons en lituanien";
+    } else if (level === 'B1') {
+        document.title = "Apprendre le Lituanien B1 🏆";
+        if (subtitle) subtitle.innerText = "Devenez autonome et parlez avec assurance";
+    }
+    
+    // Rerender main modules
+    renderMainModules();
+}
+
 function showView(viewElement) {
     views.forEach(v => v.classList.remove('active'));
     viewElement.classList.add('active');
@@ -58,7 +89,7 @@ function goHome() {
 // Render Main Modules
 function renderMainModules() {
     mainModuleList.innerHTML = '';
-    appData.modules.forEach(mod => {
+    appData[currentLevel].modules.forEach(mod => {
         const card = document.createElement('div');
         card.className = 'module-card';
         card.onclick = () => openMainModule(mod);
@@ -161,7 +192,7 @@ function checkAnswer(selectedOpt, btnElement) {
     if (selectedOpt === ex.correctAnswer) {
         btnElement.classList.add('selected');
         feedbackMessage.innerText = ex.feedback;
-        feedbackMessage.style.color = 'var(--primary-hover)';
+        feedbackMessage.style.color = 'var(--primary-shadow)';
         nextBtn.style.display = 'block';
     } else {
         btnElement.classList.add('wrong');

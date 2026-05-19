@@ -1,4 +1,4 @@
-﻿const vocabData = [
+const vocabData = [
     {
         "Lituanien":  "Aš",
         "Français":  "Je",
@@ -3570,8 +3570,1503 @@
         "Catégorie":  "Couleurs"
     },
     {
-        "Lituanien":  "Sidabrinė",
-        "Français":  "Argenté",
-        "Catégorie":  "Couleurs"
+        "Lituanien": "kelionė",
+        "Français": "le voyage",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "bilietas",
+        "Français": "le billet",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "lagaminas",
+        "Français": "la valise",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "viešbutis",
+        "Français": "l'hôtel",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "lėktuvas",
+        "Français": "l'avion",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "traukinys",
+        "Français": "le train",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "stotis",
+        "Français": "la gare / la station",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "bagažas",
+        "Français": "le bagage",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "pasas",
+        "Français": "le passeport",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "skrydis",
+        "Français": "le vol (aérien)",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "keliauti",
+        "Français": "voyager",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "važiuoti",
+        "Français": "aller (en véhicule)",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "skristi",
+        "Français": "voler (dans les airs)",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "atvykti",
+        "Français": "arriver",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "užsakyti",
+        "Français": "réserver",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "kinas",
+        "Français": "le cinéma",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "parkas",
+        "Français": "le parc",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "jūra",
+        "Français": "la mer",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "kelias",
+        "Français": "le chemin / la route",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "vieta",
+        "Français": "l'endroit / le lieu",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "pasaulis",
+        "Français": "le monde",
+        "Catégorie": "A2 - Voyage & Transports"
+    },
+    {
+        "Lituanien": "vedęs",
+        "Français": "marié (homme)",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "ištekėjusi",
+        "Français": "mariée (femme)",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "vienišas",
+        "Français": "célibataire (homme)",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "vieniša",
+        "Français": "célibataire (femme)",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "vestuvės",
+        "Français": "le mariage (cérémonie)",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "kolega",
+        "Français": "le collègue",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "žmona",
+        "Français": "l'épouse / la femme",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "vyras",
+        "Français": "le mari / l'homme",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "kaimynas",
+        "Français": "le voisin",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "brolis",
+        "Français": "le frère",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "sesuo",
+        "Français": "la sœur",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "tėvai",
+        "Français": "les parents",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "vaikas",
+        "Français": "l'enfant",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "šeima",
+        "Français": "la famille",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "draugystė",
+        "Français": "l'amitié",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "draugas",
+        "Français": "l'ami",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "draugė",
+        "Français": "l'amie",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "pažinti",
+        "Français": "connaître",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "susitikti",
+        "Français": "se rencontrer / se voir",
+        "Catégorie": "A2 - Famille & Relations"
+    },
+    {
+        "Lituanien": "oras",
+        "Français": "la météo / le temps",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "saulė",
+        "Français": "le soleil",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "lietus",
+        "Français": "la pluie",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "vėjas",
+        "Français": "le vent",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "sniegas",
+        "Français": "la neige",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "debesis",
+        "Français": "le nuage",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "vasara",
+        "Français": "l'été",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "žiema",
+        "Français": "l'hiver",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "ruduo",
+        "Français": "l'automne",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "pavasaris",
+        "Français": "le printemps",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "lyti",
+        "Français": "pleuvoir",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "pučia",
+        "Français": "souffler (vent)",
+        "Catégorie": "A2 - Météo & Saisons"
+    },
+    {
+        "Lituanien": "paltas",
+        "Français": "le manteau",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "megztinis",
+        "Français": "le pull-over / le gilet",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "kepurė",
+        "Français": "le bonnet / le chapeau",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "batai",
+        "Français": "les chaussures",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "šalikas",
+        "Français": "l'écharpe",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "marškinėliai",
+        "Français": "le T-shirt",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "kelnės",
+        "Français": "le pantalon",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "suknelė",
+        "Français": "la robe",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "vilkėti",
+        "Français": "porter (vêtement)",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "pieštukas",
+        "Français": "le crayon",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "šuo",
+        "Français": "le chien",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "citrina",
+        "Français": "le citron",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "šaukštas",
+        "Français": "la cuillère",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "sriuba",
+        "Français": "la soupe",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "kava",
+        "Français": "le café",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "arbata",
+        "Français": "le thé",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "butas",
+        "Français": "l'appartement",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "namas",
+        "Français": "la maison",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "piešti",
+        "Français": "dessiner",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "pietauti",
+        "Français": "déjeuner",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "gerti",
+        "Français": "boire",
+        "Catégorie": "A2 - Vêtements & Quotidien"
+    },
+    {
+        "Lituanien": "planuoti",
+        "Français": "planifier",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "ketinti",
+        "Français": "avoir l'intention de",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "norėti",
+        "Français": "vouloir",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "tapti",
+        "Français": "devenir",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "ilsėtis",
+        "Français": "se reposer",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "mokytis",
+        "Français": "apprendre",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "išmokti",
+        "Français": "maîtriser / apprendre complètement",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "dirbti",
+        "Français": "travailler",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "daryti",
+        "Français": "faire",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "būti",
+        "Français": "être",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "matyti",
+        "Français": "voir",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "pirkti",
+        "Français": "acheter",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "žaisti",
+        "Français": "jouer",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "suprasti",
+        "Français": "comprendre",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "gyventi",
+        "Français": "habiter",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "veikti",
+        "Français": "faire / agir",
+        "Catégorie": "A2 - Verbes & Projets"
+    },
+    {
+        "Lituanien": "didelis",
+        "Français": "grand",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "didesnis",
+        "Français": "plus grand",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "didžiausias",
+        "Français": "le plus grand",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "gražus",
+        "Français": "beau",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "gražesnis",
+        "Français": "plus beau",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "gražiausias",
+        "Français": "le plus beau",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "jaunas",
+        "Français": "jeune",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "jaunesnis",
+        "Français": "plus jeune",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "jauniausias",
+        "Français": "le plus jeune",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "greitas",
+        "Français": "rapide",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "greitesnis",
+        "Français": "plus rapide",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "greičiausias",
+        "Français": "le plus rapide",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "įdomus",
+        "Français": "intéressant",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "įdomesnis",
+        "Français": "plus intéressant",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "įdomiausias",
+        "Français": "le plus intéressant",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "brangus",
+        "Français": "cher / coûteux",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "brangesnis",
+        "Français": "plus cher",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "brangiausias",
+        "Français": "le plus cher",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "stiprus",
+        "Français": "fort",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "stipresnis",
+        "Français": "plus fort",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "stipriausias",
+        "Français": "le plus fort",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "trumpas",
+        "Français": "court",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "trumpesnis",
+        "Français": "plus court",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "trumpiausias",
+        "Français": "le plus court",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "šiltas",
+        "Français": "chaud",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "šiltesnis",
+        "Français": "plus chaud",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "šilčiausias",
+        "Français": "le plus chaud",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "šaltas",
+        "Français": "froid",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "šaltesnis",
+        "Français": "plus froid",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "šalčiausias",
+        "Français": "le plus froid",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "naujas",
+        "Français": "nouveau",
+        "Catégorie": "A2 - Comparatifs & Adjectifs"
+    },
+    {
+        "Lituanien": "ateitis",
+        "Français": "l'avenir / le futur",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "karjera",
+        "Français": "la carrière",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "svajonė",
+        "Français": "le rêve",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "tikslas",
+        "Français": "le but / l'objectif",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "inžinierius",
+        "Français": "l'ingénieur",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "gydytoja",
+        "Français": "la femme médecin",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "vakar",
+        "Français": "hier",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "rytoj",
+        "Français": "demain",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "šiais metais",
+        "Français": "cette année",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "kitais metais",
+        "Français": "l'année prochaine",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "praėjusį savaitgalį",
+        "Français": "le week-end dernier",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "kitą savaitę",
+        "Français": "la semaine prochaine",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "šiandien",
+        "Français": "aujourd'hui",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "dažnai",
+        "Français": "souvent",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "stipriai",
+        "Français": "fortement",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "aplink",
+        "Français": "autour de",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "prie",
+        "Français": "près de / vers",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "iš",
+        "Français": "de (provenance)",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "į",
+        "Français": "en / à (direction)",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "su",
+        "Français": "avec",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "už",
+        "Français": "que (comparaison)",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "prieš",
+        "Français": "avant / il y a",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "vakare",
+        "Français": "le soir",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "ryte",
+        "Français": "le matin",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "po",
+        "Français": "après",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "pamoka",
+        "Français": "la leçon / le cours",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "savaitgalis",
+        "Français": "le week-end",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "metai",
+        "Français": "l'année",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "savaitė",
+        "Français": "la semaine",
+        "Catégorie": "A2 - Expressions & Projets"
+    },
+    {
+        "Lituanien": "darbas",
+        "Français": "le travail / l'emploi",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "darbdavys",
+        "Français": "l'employeur",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "darbuotojas",
+        "Français": "l'employé",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "pokalbis dėl darbo",
+        "Français": "l'entretien d'embauche",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "gyvenimo aprašymas",
+        "Français": "le curriculum vitae / CV",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "patirtis",
+        "Français": "l'expérience",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "įgūdžiai",
+        "Français": "les compétences / aptitudes",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "atlyginimas",
+        "Français": "le salaire",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "sutartis",
+        "Français": "le contrat",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "įmonė",
+        "Français": "l'entreprise / la société",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "bendradarbis",
+        "Français": "le collègue de travail",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "karjera",
+        "Français": "la carrière",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "pareigos",
+        "Français": "les fonctions / le poste",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "viršininkas",
+        "Français": "le chef / le patron",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "susirinkimas",
+        "Français": "la réunion / la séance",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "atostogos",
+        "Français": "les vacances / les congés",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "projektas",
+        "Français": "le projet",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "tikslas",
+        "Français": "l'objectif / le but",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "verslas",
+        "Français": "les affaires / le business",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "komandiruotė",
+        "Français": "le voyage d'affaires / la mission",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "mokesčiai",
+        "Français": "les impôts / les taxes",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "dokumentas",
+        "Français": "le document",
+        "Catégorie": "B1 - Vie Professionnelle"
+    },
+    {
+        "Lituanien": "žiniasklaida",
+        "Français": "les médias",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "naujienos",
+        "Français": "les nouvelles / l'actualité",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "žinios",
+        "Français": "les informations / le journal télévisé",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "laikraštis",
+        "Français": "le journal (papier)",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "žurnalas",
+        "Français": "le magazine",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "straipsnis",
+        "Français": "l'article",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "internetas",
+        "Français": "Internet",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "svetainė",
+        "Français": "le site internet",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "socialiniai tinklai",
+        "Français": "les réseaux sociaux",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "pranešimas",
+        "Français": "le message / l'annonce / le rapport",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "informacija",
+        "Français": "l'information",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "nuoroda",
+        "Français": "le lien internet",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "kompiuteris",
+        "Français": "l'ordinateur",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "telefonas",
+        "Français": "le téléphone",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "paskyra",
+        "Français": "le compte utilisateur / profil",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "programa",
+        "Français": "le programme / l'application",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "ryšys",
+        "Français": "la connexion / le réseau / le lien",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "žinutė",
+        "Français": "le court message / SMS",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "reklama",
+        "Français": "la publicité",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "laida",
+        "Français": "l'émission (radio ou TV)",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "televizija",
+        "Français": "la télévision",
+        "Catégorie": "B1 - Médias & Technologie"
+    },
+    {
+        "Lituanien": "kultūra",
+        "Français": "la culture",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "istorija",
+        "Français": "l'histoire",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "tradicija",
+        "Français": "la tradition",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "paveldas",
+        "Français": "le patrimoine",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "pilis",
+        "Français": "le château / le fort",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "muziejus",
+        "Français": "le musée",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "teatras",
+        "Français": "le théâtre",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "šventė",
+        "Français": "la fête",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "menas",
+        "Français": "l'art",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "koncertas",
+        "Français": "le concert",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "renginys",
+        "Français": "l'événement / la manifestation",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "autorius",
+        "Français": "l'auteur",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "paroda",
+        "Français": "l'exposition",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "knyga",
+        "Français": "le livre",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "daina",
+        "Français": "la chanson",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "valstybė",
+        "Français": "l'État / le pays",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "tauta",
+        "Français": "le peuple / la nation",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "paprotys",
+        "Français": "la coutume",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "simbolis",
+        "Français": "le symbole",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "architektūra",
+        "Français": "l'architecture",
+        "Catégorie": "B1 - Culture & Traditions"
+    },
+    {
+        "Lituanien": "sveikata",
+        "Français": "la santé",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "visuomenė",
+        "Français": "la société",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "gyventojas",
+        "Français": "l'habitant / le résident",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "gydytojas",
+        "Français": "le médecin",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "ligoninė",
+        "Français": "l'hôpital",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "vaistinė",
+        "Français": "la pharmacie",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "vaistai",
+        "Français": "les médicaments",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "liga",
+        "Français": "la maladie",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "skausmas",
+        "Français": "la douleur",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "gydymas",
+        "Français": "le traitement / la guérison",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "sveikatingumas",
+        "Français": "le bien-être / la santé générale",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "sportas",
+        "Français": "le sport / l'exercice physique",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "saugumas",
+        "Français": "la sécurité",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "laisvė",
+        "Français": "la liberté",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "įstatymas",
+        "Français": "la loi",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "teisė",
+        "Français": "le droit",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "pagalba",
+        "Français": "l'aide / le secours",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "savanoris",
+        "Français": "le bénévole / le volontaire",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "aplinka",
+        "Français": "l'environnement",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "jaunimas",
+        "Français": "la jeunesse",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "šeima",
+        "Français": "la famille",
+        "Catégorie": "B1 - Santé & Vie Sociale"
+    },
+    {
+        "Lituanien": "siųsti",
+        "Français": "envoyer",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "atsiųsti",
+        "Français": "envoyer / faire parvenir",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "ieškoti",
+        "Français": "chercher",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "rasti",
+        "Français": "trouver",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "pasirašyti",
+        "Français": "signer",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "įeiti",
+        "Français": "entrer",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "išeiti",
+        "Français": "sortir",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "pareiti",
+        "Français": "rentrer chez soi",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "nueiti",
+        "Français": "aller là-bas",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "atvykti",
+        "Français": "arriver",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "suvalgyti",
+        "Français": "manger tout",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "išgerti",
+        "Français": "boire tout",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "perskaityti",
+        "Français": "lire entièrement",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "parašyti",
+        "Français": "écrire complètement",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "palaukti",
+        "Français": "attendre un peu",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "pasiūlyti",
+        "Français": "proposer",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "atsisakyti",
+        "Français": "refuser / renoncer",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "domėtis",
+        "Français": "s'intéresser à",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "švęsti",
+        "Français": "célébrer / fêter",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "lankyti",
+        "Français": "visiter / fréquenter",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "gydyti",
+        "Français": "soigner / traiter",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "jaustis",
+        "Français": "se sentir",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "susitikti",
+        "Français": "se rencontrer",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "nuspręsti",
+        "Français": "décider",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "kurti",
+        "Français": "créer / fabriquer",
+        "Catégorie": "B1 - Verbes de Niveau B1"
+    },
+    {
+        "Lituanien": "skaitantis",
+        "Français": "lisant / qui lit",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "rašantis",
+        "Français": "écrivant / qui écrit",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "turintis",
+        "Français": "ayant / qui a",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "grojantis",
+        "Français": "jouant / qui joue (musique)",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "bėgantis",
+        "Français": "courant / qui court",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "gyvenęs",
+        "Français": "ayant vécu",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "dirbęs",
+        "Français": "ayant travaillé",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "išvažiavęs",
+        "Français": "parti / ayant pris la route",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "skaitoma",
+        "Français": "lue / en cours de lecture",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "parašytas",
+        "Français": "écrit / ayant été écrit",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "žinoma",
+        "Français": "connue / bien connue",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "dainuojama",
+        "Français": "chantée / en cours de chant",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "gaminamas",
+        "Français": "fabriqué / produit",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "paruoštas",
+        "Français": "préparé",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "sukurtas",
+        "Français": "créé / réalisé",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "atliktas",
+        "Français": "accompli / fait",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "svarbus",
+        "Français": "important",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "sudėtingas",
+        "Français": "complexe / compliqué",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "naudingas",
+        "Français": "utile / bénéfique",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "sveikas",
+        "Français": "sain / en bonne santé",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "galingas",
+        "Français": "puissant",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "garsus",
+        "Français": "célèbre / bruyant",
+        "Catégorie": "B1 - Adjectifs & Participes"
+    },
+    {
+        "Lituanien": "todėl kad",
+        "Français": "parce que",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "nes",
+        "Français": "car / parce que",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "nors",
+        "Français": "bien que / quoique",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "jeigu",
+        "Français": "si (hypothétique)",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "todėl",
+        "Français": "c'est pourquoi / donc",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "kad",
+        "Français": "que / afin que",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "vietoj",
+        "Français": "à la place de",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "apie",
+        "Français": "au sujet de / à propos de",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "dėl",
+        "Français": "à cause de / pour",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "iš pradžių",
+        "Français": "au début / d'abord",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "galiausiai",
+        "Français": "finalement / enfin",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "ypač",
+        "Français": "particulièrement / surtout",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "pavyzdžiui",
+        "Français": "par exemple",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "be to",
+        "Français": "de plus / en outre",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "taip pat",
+        "Français": "aussi / également",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "be abejo",
+        "Français": "sans aucun doute",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "tiesiog",
+        "Français": "simplement / juste",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "iš tikrųjų",
+        "Français": "en réalité / vraiment",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "galbūt",
+        "Français": "peut-être",
+        "Catégorie": "B1 - Expressions & Connecteurs"
+    },
+    {
+        "Lituanien": "deja",
+        "Français": "malheureusement",
+        "Catégorie": "B1 - Expressions & Connecteurs"
     }
 ];

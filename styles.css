@@ -1,14 +1,9 @@
 /* ==========================================================================
    DESIGN SYSTEM & VARIABLES
    ========================================================================== */
-   :root {
-    /* Palette Pastel Premium */
+:root {
+    /* Palette Pastel Premium Base */
     --bg-base: #F8F9FA;
-    --primary-color: #9DC183; /* Sauge */
-    --primary-shadow: #7A9C63;
-    --secondary-color: #FFD1DC; /* Rose poudré */
-    --secondary-shadow: #E0A6B4;
-    --accent-color: #FFDAB9; /* Pêche */
     
     /* Feedback Colors */
     --success-color: #A8E6CF;
@@ -24,6 +19,35 @@
     
     /* Typography */
     --font-main: 'Outfit', sans-serif;
+}
+
+body.level-a1 {
+    --primary-color: #9DC183; /* Sauge */
+    --primary-shadow: #7A9C63;
+    --secondary-color: #FFD1DC; /* Rose poudré */
+    --secondary-shadow: #E0A6B4;
+    --accent-color: #FFDAB9; /* Pêche */
+}
+
+body.level-a2 {
+    --primary-color: #4A90E2; /* Bleu azur */
+    --primary-shadow: #357ABD;
+    --secondary-color: #E2D1F9; /* Lilas doux */
+    --secondary-shadow: #C0ACDC;
+    --accent-color: #FFE5B4; /* Pêche claire */
+}
+
+body.level-b1 {
+    --primary-color: #E67E22; /* Sunset Amber (Orange chaleureux) */
+    --primary-shadow: #D35400;
+    --secondary-color: #A3E4D7; /* Teal doux / Menthe */
+    --secondary-shadow: #76D7C4;
+    --accent-color: #F9E79F; /* Sable doré */
+}
+
+/* Smooth Transition for Dynamic Theme Switch */
+body, .blob, .module-card, .btn, .sub-number, .option-btn, .glass-panel, .level-btn, .flashcard-front, .flashcard-back {
+    transition: background 0.4s ease, background-color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease, color 0.4s ease;
 }
 
 /* ==========================================================================
@@ -596,4 +620,43 @@ h2 {
     margin-top: 15px;
     color: var(--text-light);
     font-weight: 800;
+}
+
+/* ==========================================================================
+   LEVEL SWITCHER STYLES
+   ========================================================================== */
+.level-selector-container {
+    display: inline-flex;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 4px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.03);
+    align-self: center;
+}
+
+.level-btn {
+    border: none;
+    background: transparent;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-family: var(--font-main);
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.level-btn:hover {
+    color: var(--text-dark);
+}
+
+.level-btn.active {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
